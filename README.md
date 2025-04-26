@@ -1,4 +1,4 @@
-# Sales_Analysis_for__Automobile_Company_USA
+  # Sales_Analysis_for__Automobile_Company_USA
 A Data Science Project that Analysed  the sales performance of an Automobile company Based in the United States. The company’s sales transaction data generated over the past years was used for this  analysis.
 
 ##  PROJECT TITLE:
@@ -20,6 +20,9 @@ bikes_df = pd.read_csv("C:/Users/uthma/OneDrive/Desktop/Data Set/bikes.csv")
 
 bikes_df.head()
 ```
+![Panda_Sreenshot](https://github.com/user-attachments/assets/e4ed211a-b883-44b0-b646-cdb49b7ead41)
+
+
 ## Data Modification
 ```Python
 #Adding the following 3 columns to your pansdas Dataframe:  bikes_df
@@ -47,6 +50,7 @@ bikes_df.head()
 
 
 ```
+![Data modification Screenshot](https://github.com/user-attachments/assets/16824235-2fc1-4c80-b1f1-91ce98ea7ee5)
 
 ## DATA ANALYSIS
 ```Python
@@ -58,6 +62,7 @@ bikes_df[(IS_USA) & (For_bk)].head()
 
 
 ```
+![Data Analysis Screenshot](https://github.com/user-attachments/assets/d0d4fe55-201d-410e-a32b-ce88a6e1f30b)
 
 #### DATA AGGREGATION
 ```Python
@@ -68,10 +73,14 @@ For_bk_in_USA
 
 ```
 
+![Data Aggregation](https://github.com/user-attachments/assets/69e48235-21ee-4265-a7df-ef12d66a1549)
+
 #### DATA SORTING
 ```Python
 For_bk_in_USA.sort_values("Profit", ascending = False)
 ```
+
+![Data sorting screenshot](https://github.com/user-attachments/assets/04f69168-011d-45da-9577-645eeddac372)
 
 #### RESULT
 ```Python
@@ -80,6 +89,7 @@ For_bk_in_USA.sort_values("Profit", ascending = False)
 Top_5_most_profitable_states_us = For_bk_in_USA.sort_values("Profit", ascending = False).head()
 Top_5_most_profitable_states_us
 ```
+![Result screenshot](https://github.com/user-attachments/assets/114cd2ff-f648-4a5a-8831-700016054918)
 
 #### DATA VISUALIZATION
 ```Python
@@ -92,3 +102,4 @@ plt.ylabel("Profit")
 plt.show()
 ```
 
+![Project_1_screenshot](https://github.com/user-attachments/assets/07fa9c1b-0e19-48dc-8c0c-cb08c552074b)
