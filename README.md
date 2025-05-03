@@ -1,7 +1,7 @@
   # Sales_Analysis_for__Automobile_Company_USA
 A Data Science Project that Analysed  the sales performance of an Automobile company Based in the United States. The company’s sales transaction data generated over the past years was used for this  analysis.
 
-##  PROJECT TITLE:
+##  PROBLEM STATEMENT
 What are the Top Most-Profitable 5 States for a Bike business in the United States ?
 
 ## DATA PRE-PROCESSING
